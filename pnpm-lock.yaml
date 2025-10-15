@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.3.8
     version: 2.3.8(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   '@google/generative-ai':
-    specifier: ^0.11.3
-    version: 0.11.3
+    specifier: ^0.24.1
+    version: 0.24.1
   '@primer/octicons-react':
     specifier: ^17.9.0
     version: 17.12.0(@preact/compat@17.1.2)
@@ -409,8 +409,8 @@ packages:
       react-dom: /@preact/compat@17.1.2(preact@10.22.0)
     dev: false
 
-  /@google/generative-ai@0.11.3:
-    resolution: {integrity: sha512-QtQ1hz6rcybbw35uxXlFF26KNnaTVr2oWwnmDkC1M35KdzN4tVc4wakgJp8uXbY9KDCNHksyp11DbFg0HPckZQ==}
+  /@google/generative-ai@0.24.1:
+    resolution: {integrity: sha512-MqO+MLfM6kjxcKoy0p1wRzG3b4ZZXtPI+z2IE26UogS2Cm/XHO+7gGRBh6gcJsOiIVoH93UwKvW4HdgiOZCy9Q==}
     engines: {node: '>=18.0.0'}
     dev: false
 
