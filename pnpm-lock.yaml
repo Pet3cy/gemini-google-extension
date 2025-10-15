@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.3.8
     version: 2.3.8(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   '@google/generative-ai':
-    specifier: ^0.11.3
-    version: 0.11.3
+    specifier: ^0.24.1
+    version: 0.24.1
   '@primer/octicons-react':
     specifier: ^17.9.0
     version: 17.12.0(@preact/compat@17.1.2)
@@ -54,8 +54,8 @@ dependencies:
     specifier: ^6.0.0
     version: 6.0.0
   swr:
-    specifier: ^2.0.0
-    version: 2.2.5(@preact/compat@17.1.2)
+    specifier: ^2.3.6
+    version: 2.3.6(@preact/compat@17.1.2)
   uuid:
     specifier: ^9.0.0
     version: 9.0.1
@@ -409,8 +409,8 @@ packages:
       react-dom: /@preact/compat@17.1.2(preact@10.27.2)
     dev: false
 
-  /@google/generative-ai@0.11.3:
-    resolution: {integrity: sha512-QtQ1hz6rcybbw35uxXlFF26KNnaTVr2oWwnmDkC1M35KdzN4tVc4wakgJp8uXbY9KDCNHksyp11DbFg0HPckZQ==}
+  /@google/generative-ai@0.24.1:
+    resolution: {integrity: sha512-MqO+MLfM6kjxcKoy0p1wRzG3b4ZZXtPI+z2IE26UogS2Cm/XHO+7gGRBh6gcJsOiIVoH93UwKvW4HdgiOZCy9Q==}
     engines: {node: '>=18.0.0'}
     dev: false
 
@@ -1181,10 +1181,6 @@ packages:
       slice-ansi: 5.0.0
       string-width: 5.1.2
     dev: true
-
-  /client-only@0.0.1:
-    resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
-    dev: false
 
   /cliui@5.0.0:
     resolution: {integrity: sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA==}
@@ -3933,10 +3929,10 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /swr@2.2.5(@preact/compat@17.1.2):
-    resolution: {integrity: sha512-QtxqyclFeAsxEUeZIYmsaQ0UjimSq1RZ9Un7I68/0ClKK/U3LoyQunwkQfJZr2fc22DfIXLNDc2wFyTEikCUpg==}
+  /swr@2.3.6(@preact/compat@17.1.2):
+    resolution: {integrity: sha512-wfHRmHWk/isGNMwlLGlZX5Gzz/uTgo0o2IRuTMcf4CPuPFJZlq0rDaKUx+ozB5nBOReNV1kiOyzMfj+MBMikLw==}
     peerDependencies:
-      react: ^16.11.0 || ^17.0.0 || ^18.0.0
+      react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
       client-only: 0.0.1
       react: /@preact/compat@17.1.2(preact@10.27.2)
@@ -4196,10 +4192,10 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /use-sync-external-store@1.2.2(@preact/compat@17.1.2):
-    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
+  /use-sync-external-store@1.6.0(@preact/compat@17.1.2):
+    resolution: {integrity: sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
       react: /@preact/compat@17.1.2(preact@10.27.2)
     dev: false
