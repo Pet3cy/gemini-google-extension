@@ -21,8 +21,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   github-markdown-css:
-    specifier: ^5.1.0
-    version: 5.5.1
+    specifier: ^5.8.1
+    version: 5.8.1
   inter-ui:
     specifier: ^3.19.3
     version: 3.19.3
@@ -1993,8 +1993,8 @@ packages:
       get-intrinsic: 1.2.4
     dev: true
 
-  /github-markdown-css@5.5.1:
-    resolution: {integrity: sha512-2osyhNgFt7DEHnGHbgIifWawAqlc68gjJiGwO1xNw/S48jivj8kVaocsVkyJqUi3fm7fdYIDi4C6yOtcqR/aEQ==}
+  /github-markdown-css@5.8.1:
+    resolution: {integrity: sha512-8G+PFvqigBQSWLQjyzgpa2ThD9bo7+kDsriUIidGcRhXgmcaAWUIpCZf8DavJgc+xifjbCG+GvMyWr0XMXmc7g==}
     engines: {node: '>=10'}
     dev: false
 
